@@ -1,7 +1,7 @@
 # app.py
 import streamlit as st
 import numpy as np
-import joblib
+from sklearn.externals import joblib
 
 # Load model
 model = joblib.load("diabetes_model.pkl")
